@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,8 +94,13 @@
 
  <p>神经科学把这种缝隙称为“预测误差”。 多巴胺不过是它的信使，一种冷静、无情、近乎机械的计算方式：</p>
 
- <p>（多巴胺相关的奖赏信号）∝ （感受到的结果） − （既有预期）</p>
-
+ <p>
+$$
+\text{（多巴胺相关的奖赏信号）} \;\propto\; \text{（感受到的结果）} - \text{（既有预期）}
+$$
+</p>
+   
+ 
  <p>幸福不是结果的馈赠，而是误差的副产物：一条残酷的公式，却也是人类无法逃离的宿命。</p>
 
 <h3>1. 三条路径：改变结果、改变预期、改变意义</h3>
